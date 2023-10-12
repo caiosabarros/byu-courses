@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* Set the body height to 100% of the viewport height */
+}
+
+.bottom {
+    background-color: gray;
+    height: 50%;
+    flex: 1;
+    /* Grow to fill available space equally */
+    display: flex;
+}
+
+.bottom img {
+    border: 3px solid gainsboro;
+    border-radius: 50%;
+    width: 100%;
+    height: 50%;
+    max-width: fit-content;
+    margin: 10px 100px;
+    display: inline-block;
+}
+
+.top {
+    background-color: black;
+    height: 50%;
+    flex: 1;
+    /* Grow to fill available space equally */
+
+}
+
+h1 {
+    text-align: center;
+}
