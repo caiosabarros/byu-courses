@@ -35,10 +35,20 @@ Fonts are separated by a & */
 
 body {
     max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
     text-align: center;
+    font-family: 'Montserrat', 'Ubuntu', monospace;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 img {
@@ -53,8 +63,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', 'Ubuntu', monospace;
     color: var(--headline-color-on-white);
+    margin: 0;
 }
 
 h2 {
@@ -83,6 +94,26 @@ p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
     padding: 1em;
+}
+
+.home-title {
+    font-family: 'Montserrat', 'Ubuntu', monospace;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2 {
+    font-family: 'Montserrat', 'Ubuntu', monospace;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .colors {
@@ -135,7 +166,7 @@ nav {
 }
 
 nav a {
-    padding: 1em;
+    padding: 35px;
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
@@ -201,3 +232,38 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {}

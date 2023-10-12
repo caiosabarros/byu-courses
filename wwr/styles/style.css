@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
 body #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #3E6721;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -22,6 +25,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #A16247;
@@ -29,6 +36,10 @@ main section {
 
 body {
     background-color: #A16247;
+    font-family: 'Montserrat', 'Ubuntu', monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -38,7 +49,8 @@ header {
 
 .home-title {
     color: #B0CF7C;
-
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a:hover {
@@ -52,7 +64,10 @@ nav a:hover {
     background-color: #3E6721;
     color: #92A68E;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -64,27 +79,40 @@ nav a:hover {
 
 .msg {
     background-color: #3E6721;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
 .msg p {
     color: #B0CF7C;
+    font-size: .8em;
+    padding-bottom: 35px;
 }
 
 .msg h2 {
     color: #B0CF7C;
+    font-family: 'Montserrat', 'Ubuntu', monospace;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+h2 {
+    margin: 0;
 }
 
 footer {
     background-color: #92A68E;
     color: #3E6721;
-
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     color: #B0CF7C;
     text-decoration: none;
-
 }
 
 footer a:hover {
@@ -99,6 +127,10 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 h4 {
     color: #3E6721;
 }
@@ -109,4 +141,15 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
 }
