@@ -206,3 +206,14 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
+
+.web3 {
+    padding: 5px;
+}
+
+.web3-images {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
