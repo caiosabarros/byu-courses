@@ -237,6 +237,42 @@ h4 {
     width: 100%;
 }
 
+/*
+    RIVERS PAGE
+*/
+
+.riverh h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.riverh p {
+    text-align: center;
+    margin: 0 30% 0 30%;
+}
+
+#invite {
+    margin-bottom: 50px;
+}
+
+.river-title {
+    padding: 5%;
+}
+
+.river-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 10px;
+    /* grid-template-rows: repeat(auto-fit, minmax(400px, auto)); */
+}
+
+.river-content img {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
@@ -293,4 +329,8 @@ h4 {
     footer {
         margin-top: 25px;
     }
+
+    /*
+    SubPage of WWR website: Rivers*/
+
 }
