@@ -31,13 +31,57 @@
             <h2>Me</h2>
         </div>
         <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-        <img src="./images/1615914227806.jpg" alt="Caio Sá Barros Profile Picture">
+
+        <!-- ADD CODE FOR HMLT WEB COMPONENT HERE-->
+        <!-- Trigger the Modal -->
+        <img id="myImg" src="./images/1615914227806.jpg" alt="A Photo of Me!" style="width:100%;max-width:500px">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+
+        <!-- END CODE FOR HMLT WEB COMPONENT HERE-->
+        <!-- ADD CODE FOR JS WEB COMPONENT HERE-->
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+        <!-- END CODE FOR JS WEB COMPONENT HERE-->
+        <!-- <img src="./images/1615914227806.jpg" alt="Caio Sá Barros Profile Picture"> -->
         <p style="color: #274713;">I'm passionate about the power computers have to perform computation. I love math as
             well, so
             I think
             computers are the best way to bridge the gap between math and speed. My interests range from
             <strong>blockchain</strong>, <strong>machine learning</strong>,<strong>cybersecurity</strong>,
-            and<strong>quantum computing</strong>.</p>
+            and<strong>quantum computing</strong>.
+        </p>
         <hr>
         <!-- ------------------------Step 10------------------------------ -->
 
@@ -164,30 +208,7 @@
 
         </ul>
         <hr>
-        <!-- <h2>
-            Wireframes
-        </h2>
-        <p>
-            Create three wireframes for your site. One for each page and list them here</p>
-
-        <h3>Home</h3>
-        <p>
-            [Any additional details about home that the wireframe does not make clear]
-        </p>
-        <img src="./images/wireframehome.png" alt="home page wireframe">
-
-        <h3>Web3</h3>
-        <p>
-            [Any additional details about page 2 that the wireframe does not make clear]
-        </p>
-        <img src="./images/web3wireframe.png" alt="web3 page wireframe">
-
-        <h3>CyberSecurity</h3>
-        <p>
-            [Any additional details about page 3 that the wireframe does not make clear]
-        </p>
-        <img src="./images/cyberwireframe.png" alt="cybersecurity page wireframe"> -->
-    </main>
 </body>
+
 
 </html>
