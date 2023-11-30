@@ -233,3 +233,9 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 75% 75%;
 }
+
+
+
+.me-photo {
+    padding: 10%;
+}
