@@ -69,6 +69,44 @@ hr {
     background: var(--accent1-color);
 }
 
+
+footer {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+footer>div>h1,
+footer>div>h2 {
+    color: var(--headline-color-on-color);
+}
+
+footer>div>p {
+    color: white;
+    margin-top: 0px;
+}
+
+footer>div>div {
+    display: flex;
+}
+
+footer>div>div>div>a>img {
+    border: none;
+}
+
+footer>div>div>div>p {
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     padding: 1em;
     text-align: center;
@@ -234,6 +272,16 @@ nav a:hover {
     grid-template-rows: 75% 75%;
 }
 
+.navigation {
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 0 15px;
+}
 
 
 .me-photo {
